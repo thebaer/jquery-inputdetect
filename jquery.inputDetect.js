@@ -13,7 +13,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-define(['libs/jquery.require', 'libs/underscore'], function($, _) {
+(function($) {
 
     /**
      * This detects the method used for changing an input value (keyboard or
@@ -70,4 +70,4 @@ define(['libs/jquery.require', 'libs/underscore'], function($, _) {
         });
     };
 
-});
+})(jQuery);
